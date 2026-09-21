@@ -1,20 +1,14 @@
-# Don't Remove Credit Tg - @VJ_Bots
-# Subscribe YouTube Channel For Amazing Bot @Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Don't Remove Credit 
 
 import datetime
 
-# Don't Remove Credit Tg - @VJ_Bots
-# Subscribe YouTube Channel For Amazing Bot @Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+
 
 def get_datetime_str():
     now = datetime.datetime.now()
     return now.strftime("%Y%m%d%H%M%S")
 
-# Don't Remove Credit Tg - @VJ_Bots
-# Subscribe YouTube Channel For Amazing Bot @Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+
 
 def create_html_file(file_name, batch_name, contents):
     tbody = ''
@@ -29,6 +23,4 @@ def create_html_file(file_name, batch_name, contents):
         fp.write(file_content.replace('tbody_content', tbody).replace('batch_name', batch_name))
 
 
-# Don't Remove Credit Tg - @VJ_Bots
-# Subscribe YouTube Channel For Amazing Bot @Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+
