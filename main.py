@@ -1,6 +1,6 @@
-# Don't Remove Credit Tg - @VJ_Bots
-# Subscribe YouTube Channel For Amazing Bot @Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+#blackheart.ex
+# Subscribe YouTube Channel 
+# Ask Doubt on telegram 
 
 """
 PW/Classplus/Appx Course Extractor Bot - Railway/Render/Koyeb/Web Edition
@@ -71,9 +71,9 @@ THREADPOOL = ThreadPoolExecutor(max_workers=1000)
 import logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
-# Don't Remove Credit Tg - @VJ_Bots
-# Subscribe YouTube Channel For Amazing Bot @Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Don't Remove Credit 
+# Subscribe YouTube Channel
+# Ask Doubt on telegram
 
 
 bot = Client(
@@ -102,9 +102,7 @@ async def help(bot, message):
         reply_markup=reply_markup
     )
 
-# Don't Remove Credit Tg - @VJ_Bots
-# Subscribe YouTube Channel For Amazing Bot @Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Don't Remove Credit 
 
         
 async def fetch_pwwp_data(session: aiohttp.ClientSession, url: str, headers: Dict = None, params: Dict = None, data: Dict = None, method: str = 'GET') -> Any:
@@ -125,9 +123,7 @@ async def fetch_pwwp_data(session: aiohttp.ClientSession, url: str, headers: Dic
             logging.error(f"Failed to fetch {url} after {max_retries} attempts.")
             return None
 
-# Don't Remove Credit Tg - @VJ_Bots
-# Subscribe YouTube Channel For Amazing Bot @Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Don't Remove Credit 
 
 async def process_pwwp_chapter_content(session: aiohttp.ClientSession, chapter_id, selected_batch_id, subject_id, schedule_id, content_type, headers: Dict):
     url = f"https://api.penpencil.co/v1/batches/{selected_batch_id}/subject/{subject_id}/schedule/{schedule_id}/schedule-details"
@@ -212,9 +208,7 @@ async def process_pwwp_chapter_content(session: aiohttp.ClientSession, chapter_i
         logging.warning(f"No Data Found For  Id - {schedule_id}")
         return {}
 
-# Don't Remove Credit Tg - @VJ_Bots
-# Subscribe YouTube Channel For Amazing Bot @Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Don't Remove Credit 
 
 
 async def fetch_pwwp_all_schedule(session: aiohttp.ClientSession, chapter_id, selected_batch_id, subject_id, content_type, headers: Dict) -> List[Dict]:
@@ -250,9 +244,7 @@ async def fetch_pwwp_all_schedule(session: aiohttp.ClientSession, chapter_id, se
             break
     return all_schedule
 
-# Don't Remove Credit Tg - @VJ_Bots
-# Subscribe YouTube Channel For Amazing Bot @Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Don't Remove Credit 
 
 
 async def process_pwwp_chapters(session: aiohttp.ClientSession, chapter_id, selected_batch_id, subject_id, headers: Dict):
@@ -291,9 +283,7 @@ async def process_pwwp_chapters(session: aiohttp.ClientSession, chapter_id, sele
 
     return combined_content
 
-# Don't Remove Credit Tg - @VJ_Bots
-# Subscribe YouTube Channel For Amazing Bot @Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Don't Remove Credit 
 
 
 async def get_pwwp_all_chapters(session: aiohttp.ClientSession, selected_batch_id, subject_id, headers: Dict):
@@ -312,9 +302,7 @@ async def get_pwwp_all_chapters(session: aiohttp.ClientSession, selected_batch_i
 
     return all_chapters
 
-# Don't Remove Credit Tg - @VJ_Bots
-# Subscribe YouTube Channel For Amazing Bot @Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Don't Remove Credit 
 
 
 async def process_pwwp_subject(session: aiohttp.ClientSession, subject: Dict, selected_batch_id: str, selected_batch_name: str, zipf: zipfile.ZipFile, json_data: Dict, all_subject_urls: Dict[str, List[str]], headers: Dict):
@@ -349,10 +337,7 @@ async def process_pwwp_subject(session: aiohttp.ClientSession, subject: Dict, se
                 all_urls.extend(content)
     all_subject_urls[subject_name] = all_urls
 
-# Don't Remove Credit Tg - @VJ_Bots
-# Subscribe YouTube Channel For Amazing Bot @Tech_VJ
-# Ask Doubt on telegram @KingVJ01
-
+# Don't Remove Credit 
 def find_pw_old_batch(batch_search):
 
     try:
@@ -373,9 +358,7 @@ def find_pw_old_batch(batch_search):
 
     return matching_batches
 
-# Don't Remove Credit Tg - @VJ_Bots
-# Subscribe YouTube Channel For Amazing Bot @Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Don't Remove Credit 
 
 async def get_pwwp_todays_schedule_content_details(session: aiohttp.ClientSession, selected_batch_id, subject_id, schedule_id, headers: Dict) -> List[str]:
 
@@ -461,10 +444,7 @@ async def get_pwwp_todays_schedule_content_details(session: aiohttp.ClientSessio
         logging.warning(f"No Data Found For  Id - {schedule_id}")
     return content
 
-# Don't Remove Credit Tg - @VJ_Bots
-# Subscribe YouTube Channel For Amazing Bot @Tech_VJ
-# Ask Doubt on telegram @KingVJ01
-
+# Don't Remove Credit 
 async def get_pwwp_all_todays_schedule_content(session: aiohttp.ClientSession, selected_batch_id: str, headers: Dict) -> List[str]:
 
     url = f"https://api.penpencil.co/v1/batches/{selected_batch_id}/todays-schedule"
@@ -491,9 +471,7 @@ async def get_pwwp_all_todays_schedule_content(session: aiohttp.ClientSession, s
 
     return all_content
 
-# Don't Remove Credit Tg - @VJ_Bots
-# Subscribe YouTube Channel For Amazing Bot @Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Don't Remove 
     
 @bot.on_callback_query(filters.regex("^pwwp$"))
 async def pwwp_callback(bot, callback_query):
@@ -510,9 +488,7 @@ async def pwwp_callback(bot, callback_query):
             
     THREADPOOL.submit(asyncio.run, process_pwwp(bot, callback_query.message, user_id))
 
-# Don't Remove Credit Tg - @VJ_Bots
-# Subscribe YouTube Channel For Amazing Bot @Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Don't Remove Credit 
 
 async def process_pwwp(bot: Client, m: Message, user_id: int):
 
@@ -780,9 +756,7 @@ async def process_pwwp(bot: Client, m: Message, user_id: int):
                 await session.close()
             await CONNECTOR.close()
 
-# Don't Remove Credit Tg - @VJ_Bots
-# Subscribe YouTube Channel For Amazing Bot @Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Don't Remove 
             
 async def fetch_cpwp_signed_url(url_val: str, name: str, session: aiohttp.ClientSession, headers: Dict[str, str]) -> str | None:
     MAX_RETRIES = 3
@@ -805,9 +779,7 @@ async def fetch_cpwp_signed_url(url_val: str, name: str, session: aiohttp.Client
     logging.error(f"Failed to fetch signed URL for {name} after {MAX_RETRIES} attempts.")
     return None
 
-# Don't Remove Credit Tg - @VJ_Bots
-# Subscribe YouTube Channel For Amazing Bot @Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Don't Remove 
 
 async def process_cpwp_url(url_val: str, name: str, session: aiohttp.ClientSession, headers: Dict[str, str]) -> str | None:
     try:
@@ -830,9 +802,7 @@ async def process_cpwp_url(url_val: str, name: str, session: aiohttp.ClientSessi
         pass
     return None
 
-# Don't Remove Credit Tg - @VJ_Bots
-# Subscribe YouTube Channel For Amazing Bot @Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Don't Remove Credit 
 
 async def get_cpwp_course_content(session: aiohttp.ClientSession, headers: Dict[str, str], Batch_Token: str, folder_id: int = 0, limit: int = 9999999999, retry_count: int = 0) -> Tuple[List[str], int, int, int]:
     MAX_RETRIES = 3
@@ -943,9 +913,7 @@ async def get_cpwp_course_content(session: aiohttp.ClientSession, headers: Dict[
 
     return results, video_count, pdf_count, image_count
 
-# Don't Remove Credit Tg - @VJ_Bots
-# Subscribe YouTube Channel For Amazing Bot @Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+
 
 @bot.on_callback_query(filters.regex("^cpwp$"))
 async def cpwp_callback(bot, callback_query):
@@ -963,10 +931,7 @@ async def cpwp_callback(bot, callback_query):
     THREADPOOL.submit(asyncio.run, process_cpwp(bot, callback_query.message, user_id))
 
 
-# Don't Remove Credit Tg - @VJ_Bots
-# Subscribe YouTube Channel For Amazing Bot @Tech_VJ
-# Ask Doubt on telegram @KingVJ01
-
+# Don't Remove Credit 
 async def process_cpwp(bot: Client, m: Message, user_id: int):
     
     headers = {
@@ -1185,9 +1150,7 @@ async def process_cpwp(bot: Client, m: Message, user_id: int):
             await CONNECTOR.close()
 
 
-# Don't Remove Credit Tg - @VJ_Bots
-# Subscribe YouTube Channel For Amazing Bot @Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Don't Remove Credit 
 
 
 def appx_decrypt(enc):
@@ -1205,9 +1168,7 @@ def appx_decrypt(enc):
     return url
 
 
-# Don't Remove Credit Tg - @VJ_Bots
-# Subscribe YouTube Channel For Amazing Bot @Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Don't Remove Credit 
 
 async def fetch_appx_html_to_json(session, url, headers=None, data=None):
     try:
@@ -1255,9 +1216,7 @@ async def fetch_appx_html_to_json(session, url, headers=None, data=None):
         logging.exception(f"An error occurred during the request: {e}")
         return None
 
-# Don't Remove Credit Tg - @VJ_Bots
-# Subscribe YouTube Channel For Amazing Bot @Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Don't Remove Credit 
 
 async def fetch_appx_video_id_details_v2(session, api, selected_batch_id, video_id, ytFlag, headers, folder_wise_course, user_id):
     logging.info(f"User ID: {user_id} - Fetching video details for video ID: {video_id}")
@@ -1361,9 +1320,7 @@ async def fetch_appx_video_id_details_v2(session, api, selected_batch_id, video_
         return [
             f"User ID: {user_id} - An error occurred while fetching details for Course_id : {selected_batch_id}, video ID {video_id}: {str(e)}\n"]
 
-# Don't Remove Credit Tg - @VJ_Bots
-# Subscribe YouTube Channel For Amazing Bot @Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Don't Remove Credit 
 
 async def fetch_appx_folder_contents_v2(session, api, selected_batch_id, folder_id, headers, folder_wise_course, user_id):
     logging.info(f"User ID: {user_id} - Fetching folder contents for folder ID: {folder_id}")
@@ -1399,9 +1356,7 @@ async def fetch_appx_folder_contents_v2(session, api, selected_batch_id, folder_
             f"User ID: {user_id} - Error fetching folder contents for folder - Course_id : {selected_batch_id}, Folder_id : {folder_id}. Error: {e}\n"]
 
 
-# Don't Remove Credit Tg - @VJ_Bots
-# Subscribe YouTube Channel For Amazing Bot @Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Don't Remove Credit 
 
 async def fetch_appx_video_id_details_v3(session, api, selected_batch_id, video_id, ytFlag, headers, user_id):
     logging.info(f"User ID: {user_id} - Fetching video details V3 for video ID: {video_id}")
@@ -1542,9 +1497,7 @@ async def fetch_appx_video_id_details_v3(session, api, selected_batch_id, video_
         return [
             f"User ID: {user_id} - An error occurred while fetching details for Course_id : {selected_batch_id}, video ID {video_id}: {str(e)}\n"]
 
-# Don't Remove Credit Tg - @VJ_Bots
-# Subscribe YouTube Channel For Amazing Bot @Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Don't Remove Credit 
 
 def find_appx_matching_apis(search_api, appxapis_file="appxapis.json"):
     matched_apis = []
@@ -1574,9 +1527,7 @@ def find_appx_matching_apis(search_api, appxapis_file="appxapis.json"):
 
     return unique_apis
 
-# Don't Remove Credit Tg - @VJ_Bots
-# Subscribe YouTube Channel For Amazing Bot @Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Don't Remove Credit 
 
 async def process_folder_wise_course_0(session, api, selected_batch_id, headers, user_id):
     logging.info(f"User ID: {user_id} - Processing folder-wise course 0")
@@ -1709,9 +1660,7 @@ async def process_folder_wise_course_0(session, api, selected_batch_id, headers,
 
     return all_outputs
 
-# Don't Remove Credit Tg - @VJ_Bots
-# Subscribe YouTube Channel For Amazing Bot @Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Don't Remove Credit 
 
 async def process_folder_wise_course_1(session, api, selected_batch_id, headers, user_id):
     logging.info(f"User ID: {user_id} - Processing folder-wise course 1")
@@ -1800,9 +1749,7 @@ async def process_folder_wise_course_1(session, api, selected_batch_id, headers,
 
     return all_outputs
 
-# Don't Remove Credit Tg - @VJ_Bots
-# Subscribe YouTube Channel For Amazing Bot @Tech_VJ
-# Ask Doubt on telegram @KingVJ01    
+# Don't Remove Credit     
 
 @bot.on_callback_query(filters.regex("^appxwp$"))
 async def appxwp_callback(bot, callback_query):
@@ -1820,9 +1767,7 @@ async def appxwp_callback(bot, callback_query):
     THREADPOOL.submit(asyncio.run, process_appxwp(bot, callback_query.message, user_id))
 
 
-# Don't Remove Credit Tg - @VJ_Bots
-# Subscribe YouTube Channel For Amazing Bot @Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Don't Remove Credit 
 
 async def process_appxwp(bot: Client, m: Message, user_id: int):
 
@@ -2118,13 +2063,8 @@ async def process_appxwp(bot: Client, m: Message, user_id: int):
                 await session.close()
             await CONNECTOR.close()
 
-# Don't Remove Credit Tg - @VJ_Bots
-# Subscribe YouTube Channel For Amazing Bot @Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+
                                         
 bot.run()
 
 
-# Don't Remove Credit Tg - @VJ_Bots
-# Subscribe YouTube Channel For Amazing Bot @Tech_VJ
-# Ask Doubt on telegram @KingVJ01
