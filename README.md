@@ -2,7 +2,8 @@
   <img src="
 </p>
 <h1 align="center">
-  VJ COURSE EXTRACTOR BOT
+RupakAryan COURSE EXTRACTOR BOT
+  blackheart.ex
 </h1>
 
 ## Deploy Tutorial - 
