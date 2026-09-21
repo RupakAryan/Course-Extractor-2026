@@ -1,22 +1,21 @@
 <p align="center">
-  <img src="https://i.ibb.co/dJ0gpJf1/photo-2025-06-16-12-07-05-7516517596376596504.jpg" alt="VJ-COURSE-EXTRACTOR-BOT Logo">
+  <img src="
 </p>
 <h1 align="center">
   VJ COURSE EXTRACTOR BOT
 </h1>
 
-## Deploy Tutorial - [Video Link](https://youtu.be/UXjo1oGe3h0)
+## Deploy Tutorial - 
 
 ## Credit
 
 <b><details><summary>Tap On Me For See Credit</summary>
 
-💝 Credit Goes To [Tech VJ](https://telegram.me/VJ_Bots) So Don't Forgot To Give Credit
+💝 Credit Goes To [Tech  So Don't Forgot To Give Credit
 
-💖 And Thank You So Much To All Who Help In This Journey 💕
+💖 And Thank You So Much To All Whlp In This Journey 💕
 
-Copyright ©️ [Tech VJ](https://youtube.com/@Tech_VJ)
-
+Copyright ©️ 
 </b>
 </details>
 
@@ -24,16 +23,6 @@ Copyright ©️ [Tech VJ](https://youtube.com/@Tech_VJ)
 
 <b><details><summary>Tap On Me For See Details Of Owner</summary>
 
-- YouTube Channel : [Tech VJ](https://youtube.com/@Tech_VJ)
-- Telegram Channel : [VJ Bots](https://telegram.me/VJ_Bots)
-- Contact Link : [King VJ](https://telegram.me/Kingvj01)
-- Instagram Id Link : [Tech VJ](https://instagram.com/tech.vj)
-
-</b>
-</details>
-
-
-### Copyright ©️ [Tech VJ](https://youtube.com/@Tech_VJ)
 
 <b>Selling This Repo Or Code Of This Repo For Money Is Strictly Prohibited 🚫</b>
 
