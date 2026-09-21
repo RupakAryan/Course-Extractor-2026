@@ -5,7 +5,7 @@
   VJ COURSE EXTRACTOR BOT
 </h1>
 
-## Deploy Tutorial - [Video Link](https://youtube.com/@Tech_VJ)
+## Deploy Tutorial - [Video Link](https://youtu.be/UXjo1oGe3h0)
 
 ## Credit
 
